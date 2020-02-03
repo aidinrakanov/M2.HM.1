@@ -8,10 +8,7 @@ public class Transport {
     private String model;
     private Colour colour;
 
-    private int Mileage() {
-        Random r = new Random();
-        return r.nextInt(100000);
-    }
+ 
 
     public int getYear() {
         return year;
